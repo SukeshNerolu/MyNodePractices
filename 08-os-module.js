@@ -6,7 +6,7 @@ const user = os.userInfo()
 
 //method returns the system uptime in seconds
 
-console.log(`The su=yssem uptime is ${os.uptime()} seconds`)
+console.log(`The system uptime is ${os.uptime()} seconds`)
 
 const currentOS = {
     name: os.type(),
